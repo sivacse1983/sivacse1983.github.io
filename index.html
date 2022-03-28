@@ -5,7 +5,8 @@
 		<style>
 		body
 		{
-		background-color:#D4EFDF ;
+			font-family: Arial, Helvetica, sans-serif;
+			background-color:#D4EFDF ;
 		}
 		h1,h3
 		{
@@ -26,12 +27,41 @@
 			padding-left: 50px;
 			line-height: 2;
 		}
+		#experience {
+		  font-family: Arial, Helvetica, sans-serif;
+		  border-collapse: collapse;
+		  width: 100%;
+		}
+
+		#experience td, #experience th {
+		  border: 1px solid #ddd;
+		  padding: 8px;
+		}
+
+		#experience tr:nth-child(even){background-color: #f2f2f2;}
+		#experience tr:nth-child(odd){background-color: #FEF9E7 ;}
+		#experience tr:hover {background-color: #ddd;}
+
+		#experience th {
+		  padding-top: 12px;
+		  padding-bottom: 12px;
+		  text-align: left;
+		  background-color: #04AA6D;
+		  color: white;
+		}
+		img{
+		float:right;
+		position:relative;
+		right:150px;
+		}
 		</style>
 	</head>
 	<body>
+		<img src="siva.jpg" height="120" width="120" alt="myphoto">
 		<h1>M.SIVAKUMAR</h1>
 		<h3>sivakumarm.cse@krct.ac.in</h3>
 		<h3>9715433065</h3>
+		
 		<hr>
 		<div class="main">
 		<h4 id="section">CARRIER OBJECTIVE</h4>
@@ -39,16 +69,51 @@
 		Highly energetic and committed professional teacher with strong academic background and practical experience in modern and innovative teaching techniques seeks to provide top quality knowledge to students.
 		</p>
 		<h4 id="section">EDUCATION</h4>
-		<ul>
-			<li>Ph.D. - Pursuing</li>
-			<li>M.E. - CSE</li>
-			<li>B.E. - CSE</li>
-		</ul>
+		<table id="experience">
+		  <tr>
+			<th>Degree</th>
+			<th>Institution</th>
+			<th>Year</th>
+			<th>Class</th>
+		  </tr>
+		  <tr>
+			<td>Ph.D.</td>
+			<td>National Institute of Technology</td>
+			<td>Pursuing</td>
+			<td>NA</td>
+		  </tr>
+		  <tr>
+			<td>M.E. - CSE</td>
+			<td>Mailam Engineering College</td>
+			<td>2009 - 2011</td>
+			<td>I Class</td>
+		  </tr>
+		  <tr>
+			<td>B.E. - CSE</td>
+			<td>Anjalai Ammal Mahalingam Engineering College</td>
+			<td>2001 - 2005</td>
+			<td>I Class</td>
+		  </tr>		  
+		</table>
 		<h4 id="section">TEACHING EXPERIENCE</h4>
-		<ul>
-			<li>K.Ramakrishnan College of Technology[From: 18.07.2011 To: Till date]</li>
-			<li>Dhanalakshmi College of Engineering    From:</li>
-		</ul>
+		<table id="experience">
+		  <tr>
+			<th>Institution</th>
+			<th>Designtion</th>
+			<th>From - To</th>
+		  </tr>
+		  <tr>
+			<td>K.Ramakrishnan College of Technology, Trichy</td>
+			<td>Assistant Professor</td>
+			<td>18.07.2011 - Till date</td>
+		  </tr>
+		  <tr>
+			<td>Dhanalakshmi College of Engineering, Chennai</td>
+			<td>Lecturer</td>
+			<td>02.06.2006 - 20.07.2009</td>
+		  </tr>
+		  
+		</table>
 		<h4 id="section">RESEARCH INTEREST</h4>
 		<ul>
 			<li>Sentiment Analysis</li>
